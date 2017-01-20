@@ -61,7 +61,7 @@ public class VmonoApp {
     public static void main(String[] args) throws UnknownHostException {
         SpringApplication app = new SpringApplication(VmonoApp.class);
         DefaultProfileUtil.addDefaultProfile(app);
-        Environment e   nv = app.run(args).getEnvironment();
+        Environment env = app.run(args).getEnvironment();
         log.info("\n----------------------------------------------------------\n\t" +
                 "Application '{}' is running! Access URLs:\n\t" +
                 "Local: \t\thttp://localhost:{}\n\t" +
