@@ -22,5 +22,7 @@
 
     <cache alias="com.vaneet.domain.WishList" uses-template="simple"/>
 
+    <cache alias="com.vaneet.domain.Wish" uses-template="simple"/>
+
     <!-- jhipster-needle-ehcache-add-entry -->
 </config>
